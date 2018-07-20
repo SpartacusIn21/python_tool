@@ -33,7 +33,7 @@ redIm.save(r'2.png')
 redIm = Image.new('RGBA',(100,100),'#FF0000')
 redIm.save('3.png')
 #元组形式
-redIm = Image.new('RGB',(200,100),(255,2555,0,0))
+redIm = Image.new('RGB',(200,100),(255,255,0,0))
 redIm.save(r'4.png')
 
 ####################################
