@@ -28,3 +28,4 @@ cv2.waitKey(0)
 height,width=image.shape[:2]
 thumb = cv2.resize(image,((int)(height/2),(int)(width/2)),interpolation=cv2.INTER_CUBIC)
 cv2.imwrite("thumb.png", thumb) # save the thumb image
+
